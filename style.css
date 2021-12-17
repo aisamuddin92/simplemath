@@ -1,0 +1,76 @@
+body
+{
+	text-align: center;
+}
+
+#calculator {
+	width: max-content;
+	margin: 2rem auto;
+}
+
+table td {
+	min-width: 70px;
+	padding: 3px;
+}
+
+table button
+{
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 40px;
+	border-style: none;
+	background-color: #d6d6c2;
+	border-radius: 4px
+}
+button:hover
+{
+	background-color: #1e1e15;
+	color: white;
+}
+button.operator
+{
+	background-color: #80ffaa;
+}
+button.operator:hover
+{
+	background-color: #194d33;
+	color: white;
+}
+
+#heading
+{
+	font-family: garamond;
+	font-weight: bolder;
+	font-size: 50px;
+	color: #009999;
+}
+#ans
+{
+	font-weight: normal;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+#query
+{
+	font-weight: normal;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+#abt
+{
+	font-family: Comic Sans MS;
+	font-size: 20px;
+	color: #009999;
+}
+.link
+{
+	font-family: Comic Sans MS;
+	color: #ff4d4d;
+	text-decoration: none;
+}
+.link:hover
+{
+	font-size: 20px;
+}
